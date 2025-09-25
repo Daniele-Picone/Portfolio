@@ -1,0 +1,48 @@
+.skills-section {
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.skills-section h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink), var(--neon-purple));
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    color: transparent;
+    text-shadow: 0 0 20px var(--neon-cyan);
+    margin-bottom: 3rem;
+}
+
+.skills-grid {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skill-card {
+    background: var(--glass-bg);
+    border: 2px solid var(--neon-cyan);
+    color: var(--text-primary);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    min-width: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skill-card:hover {
+    background: var(--neon-cyan);
+    color: var(--dark-bg);
+    box-shadow: 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan);
+    transform: translateY(-5px) scale(1.05);
+}

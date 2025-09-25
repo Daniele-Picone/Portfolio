@@ -1,0 +1,66 @@
+:root {
+           --neon-cyan: #00f5ff;
+            --neon-pink: #ff0080;
+            --neon-purple: #8000ff;
+            --neon-green: #00ff88;
+            --neon-orange: #ff6600;
+            --dark-bg: #0a0a0f;
+            --darker-bg: #050507;
+            --glass-bg: rgba(15, 15, 25, 0.8);
+            --text-primary: #ffffff;
+            --text-secondary: #b4c6cd;
+            --text-muted: #6b7e86;
+  
+}
+
+
+/* DARK MODE */
+body[data-theme='dark'] {
+  --bg: #F4F0FF;           /* default light background */
+  --text: #1C1C1C;         /* default light text */
+  --purple: #7B5ACD;
+  --purple-light: #D9C7FF;
+  --neon-pink: #F93EF3;
+  --neon-cyan: #4FFFE5;
+  --card-bg: linear-gradient(145deg, var(--purple-light), #EDE3FF);
+  --border-color: var(--neon-pink);
+}
+
+/* === STILI GENERALI === */
+ body {
+            font-family: 'Rajdhani', sans-serif;
+            background: var(--darker-bg);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            
+   }
+body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255, 0, 128, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 245, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(128, 0, 255, 0.08) 0%, transparent 50%);
+            animation: bg-pulse 8s ease-in-out infinite;
+            z-index: -2;
+        }
+
+body::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(45deg, transparent 48%, rgba(0, 245, 255, 0.03) 49%, rgba(0, 245, 255, 0.03) 51%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(255, 0, 128, 0.03) 49%, rgba(255, 0, 128, 0.03) 51%, transparent 52%);
+            background-size: 50px 50px;
+            animation: matrix-rain 20s linear infinite;
+            z-index: -1;
+            opacity: 0.5;
+        }
