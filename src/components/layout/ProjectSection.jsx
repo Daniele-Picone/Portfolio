@@ -1,4 +1,6 @@
 "use client";
+
+import Link from "next/link";
 import { projects } from "@/data/progject.js"; 
 import "./ProjectSection.css";
 
@@ -8,7 +10,7 @@ export default function ProjectsSection() {
       <h2 className="projects-title">Progetti</h2>
       <div className="projects-grid">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <Link key={project.id}  href={`/project/${project.id}`} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="tech-stack">
@@ -20,7 +22,7 @@ export default function ProjectsSection() {
               <a href={project.link} target="_blank" rel="noreferrer">🌐 Live</a>
               <a href={project.github} target="_blank" rel="noreferrer">💻 Code</a>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

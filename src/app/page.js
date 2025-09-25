@@ -13,7 +13,6 @@ export default function Home() {
             <HeroSection/>
             <TimelineSection/> 
             <SkillsSection/>
-            <ProjectSection/>
       </div>
     
   );
