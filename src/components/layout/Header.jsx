@@ -6,12 +6,12 @@ export default function Header() {
     return(
         <header className="header">
         <nav className="nav">
-            <div className="logo"><h1> PORTFOLIO</h1></div>
+            <div className="logo"><h1>IL MIO PORTFOLIO</h1></div>
             <ul className="nav-links">
-                <li><Link href="#" className="nav-link">Home</Link></li>
-                <li><Link href="#" className="nav-link">About</Link></li>
-                <li><Link href="#" className="nav-link">Projects</Link></li>
-                <li><Link href="#" className="nav-link">Contact</Link></li>
+                <li><Link href="#home" className="nav-link">Home</Link></li>
+                <li><Link href="#timeline" className="nav-link">Carrer</Link></li>
+                <li><Link href="#skills" className="nav-link">Skills</Link></li>
+                <li><Link href="#projects" className="nav-link">Projects</Link></li>
             </ul>
         </nav>
     </header>

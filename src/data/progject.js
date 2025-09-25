@@ -29,10 +29,10 @@ export const projects = [
     {
     id: 4,
     title: "ToDoList",
-    description: "ToDo list  ",
-    tech: ["Html","css" ,"js"],
-    link: "#",
-    github: "#",
+    description: "ToDo list in react ",
+    tech: ["React"],
+    link: "https://react-to-do-list-s9qq.vercel.app/",
+    github: "https://github.com/Daniele-Picone/React_toDo_List",
     slug: "blog-dev"
   },
 ];

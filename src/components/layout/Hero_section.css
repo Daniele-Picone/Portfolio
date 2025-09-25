@@ -233,3 +233,96 @@
     z-index: 5;
     
 }
+/* TABLET (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero-section {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        text-align: start;
+    }
+
+    .hero-name {
+        font-size: 3.5rem;
+        text-align: start;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+        max-width: 400px;
+    }
+
+    .img-container {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* TABLET (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero-section {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        text-align: start;
+    }
+
+    .hero-name {
+        font-size: 3.5rem;
+        text-align: start;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+        max-width: 400px;
+    }
+
+    .img-container {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* MOBILE (fino a 767px) */
+@media (max-width: 767px) {
+    .hero{
+            width: 80%;
+           
+            margin-top: 150px;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .hero-content {
+        max-width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hobby-zone span{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title { font-size: 3rem; }
+    .hero-name { font-size: 2.5rem; }
+    .img-container { width: 300px; height: 300px; margin: 1rem auto; }
+}
