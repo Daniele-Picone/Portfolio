@@ -1,4 +1,5 @@
 import { projects } from "@/data/progject.js";
+import './page.css'
 
 export default function ProjectPage({ params }) {
   const project = projects.find(p => String(p.id) === params.id);
@@ -6,7 +7,7 @@ export default function ProjectPage({ params }) {
   if (!project) return <p style={{ padding: "2rem" }}>Progetto non trovato</p>;
 
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className="ProjectPage">
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       <div>

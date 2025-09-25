@@ -22,8 +22,8 @@ export const projects = [
     title: "Pacman",
     description: "Ho ricreato una versione base del famoso gioco pacman  ",
     tech: ["Html","css" ,"js"],
-    link: "#",
-    github: "#",
+    link: "https://pacman-q1cegukzc-danieles-projects-06970f10.vercel.app/",
+    github: "https://github.com/Daniele-Picone/Mypacman",
     slug: "blog-dev"
   },
     {

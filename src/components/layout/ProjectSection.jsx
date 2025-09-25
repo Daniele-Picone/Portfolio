@@ -7,7 +7,7 @@ import "./ProjectSection.css";
 export default function ProjectsSection() {
   return (
     <section id="projects" className="projects">
-      <h2 className="projects-title">Progetti</h2>
+      <h2 className="projects-title">I Miei Progetti</h2>
       <div className="projects-grid">
         {projects.map((project) => (
           <Link key={project.id}  href={`/project/${project.id}`} className="project-card">
