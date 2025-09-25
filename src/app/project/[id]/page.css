@@ -2,4 +2,32 @@
 .ProjectPage{
     margin-top: 130px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.projectBgCard{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectBgCard h1{
+ font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink), var(--neon-purple));
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow-text 5s ease infinite;
+  text-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
+}
+.projectBgCard img{
+    width: 50%;
+    border-radius:10px ;
 }

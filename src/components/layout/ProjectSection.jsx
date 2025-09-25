@@ -18,10 +18,6 @@ export default function ProjectsSection() {
                 <span key={index} className="tech">{t}</span>
               ))}
             </div>
-            <div className="links">
-              <a href={project.link} target="_blank" rel="noreferrer">🌐 Live</a>
-              <a href={project.github} target="_blank" rel="noreferrer">💻 Code</a>
-            </div>
           </Link>
         ))}
       </div>

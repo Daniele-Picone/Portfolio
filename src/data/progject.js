@@ -6,7 +6,8 @@ export const projects = [
     tech: ["Html", "Css",],
     link: "https://daniele-picone.github.io/WANDERLY-/",
     github: "https://github.com/Daniele-Picone/WANDERLY-",
-    slug: "Wanderly"
+    slug: "Wanderly",
+    img :"/Wanderly.png"
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const projects = [
     tech: ["html", "css", "js"],
     link: "https://app-meteo-eta.vercel.app/",
     github: "https://github.com/Daniele-Picone/App-Meteo",
-    slug: "App-meteo"
+    slug: "App-meteo",
+    img: "/Meteo.png"
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const projects = [
     tech: ["Html","css" ,"js"],
     link: "https://pacman-q1cegukzc-danieles-projects-06970f10.vercel.app/",
     github: "https://github.com/Daniele-Picone/Mypacman",
-    slug: "blog-dev"
+    slug: "blog-dev",
+    img: "/PacMan.png"
   },
     {
     id: 4,
@@ -33,6 +36,7 @@ export const projects = [
     tech: ["React"],
     link: "https://react-to-do-list-s9qq.vercel.app/",
     github: "https://github.com/Daniele-Picone/React_toDo_List",
-    slug: "blog-dev"
+    slug: "blog-dev",
+    img :"/todolist.png"
   },
 ];

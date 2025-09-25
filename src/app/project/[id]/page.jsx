@@ -8,8 +8,10 @@ export default function ProjectPage({ params }) {
 
   return (
     <div className="ProjectPage">
-      <h1>{project.title}</h1>
-      <p>{project.description}</p>
+        <div className="projectBgCard">
+          <h1>{project.title}</h1>
+          <img src={project.img} alt="" />
+          <p>{project.description}</p>
       <div>
         <h3>Tecnologie:</h3>
         <ul>
@@ -22,6 +24,7 @@ export default function ProjectPage({ params }) {
         <a href={project.link} target="_blank" rel="noreferrer">🌐 Live</a>{" | "}
         <a href={project.github} target="_blank" rel="noreferrer">💻 Code</a>
       </div>
+        </div>
     </div>
   );
 }
