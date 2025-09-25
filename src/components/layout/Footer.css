@@ -53,12 +53,13 @@
     text-align: center;
 }
 
-@media (min-width: 375px){
+@media (max-width: 767px){
     .footer-links-section{
         display: flex;
         flex-direction: column;
     }
     .footer-links{
+        display: flex;
         flex-direction: column;
    
    
