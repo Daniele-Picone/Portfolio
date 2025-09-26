@@ -236,7 +236,7 @@
 
 /* mediaquery */
 
-@media  (max-width: 760px){
+@media (min-width: 360px) and (max-width: 800px){
     .hero{
         padding: 0;
         margin-bottom: 150px;
