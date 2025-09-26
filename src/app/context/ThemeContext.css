@@ -1,30 +1,49 @@
 :root {
-           --neon-cyan: #00f5ff;
-            --neon-pink: #ff0080;
-            --neon-purple: #8000ff;
-            --neon-green: #00ff88;
-            --neon-orange: #ff6600;
-            --dark-bg: #0a0a0f;
-            --darker-bg: #050507;
-            --glass-bg: rgba(15, 15, 25, 0.8);
-            --text-primary: #ffffff;
-            --text-secondary: #b4c6cd;
-            --text-muted: #6b7e86;
-  
+    /* Neon colors */
+    --neon-cyan: #00f5ff;       /* usata in logo, link hover, bordi card, gradient animazioni */
+    --neon-pink: #ff0080;       /* usata in logo, hover link, timeline line, gradient animazioni */
+    --neon-purple: #8000ff;     /* usata nei gradient animazioni dei project-card e testi rainbow */
+
+    /* Neon non usati e commentati */ 
+      --neon-green : #00ff88 ;  
+     --neon-orange: #ff6600;  
+
+    /* Background */
+    --darker-bg: #050507;       /* usata come background principale del body */
+    --glass-bg: rgba(15, 15, 25, 0.8); /* usata in project-card e timeline content */
+
+    /* Testi */
+    --text-primary: #ffffff;    /* usata in h3 card, timeline content, testi principali */
+    --text-secondary: #b4c6cd;  /* usata in paragrafi card, nav link, timeline p, footer link */
 }
 
 
-/* DARK MODE */
-body[data-theme='dark'] {
-  --bg: #F4F0FF;           /* default light background */
-  --text: #1C1C1C;         /* default light text */
-  --purple: #7B5ACD;
-  --purple-light: #D9C7FF;
-  --neon-pink: #F93EF3;
-  --neon-cyan: #4FFFE5;
-  --card-bg: linear-gradient(145deg, var(--purple-light), #EDE3FF);
-  --border-color: var(--neon-pink);
+/*LightMODE */
+  body[data-theme='light'] {
+  /* Background principali */
+  --bg: #f5f5f5;           /* sfondo principale chiaro */
+  --darker-bg: #eaeaea;    /* sfondo secondario */
+  --dark-bg: #ffffff;       /* eventuali card o overlay */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+
+  /* Testi */
+  --text-primary: #1C1C1C;
+  --text-secondary: #4a4a50;
+  --text-muted: #7a7d85;
+
+  /* Neon / colori accento */
+  --neon-cyan: #00f5ff;
+  --neon-pink: #ff3399;
+  --neon-purple: #8000ff;
+  --neon-green: #00cc88;
+  --neon-orange: #ff9900;
+
+  /* Gradient e bordi */
+  --card-bg: linear-gradient(145deg, #ffffff, #f0f0ff);
+  --border-color: var(--neon-cyan);
 }
+
+
 
 /* === STILI GENERALI === */
  body {

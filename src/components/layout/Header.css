@@ -87,14 +87,24 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-    .nav {
+    .header{
+        width: 90%;
+        margin: auto;
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        width: 10%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .nav-links {
-        flex-direction: column;
+       display: flex;
         width: 100%;
         gap: 1rem;
         margin-top: 1rem;

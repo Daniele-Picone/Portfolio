@@ -302,7 +302,7 @@
     .hero{
             width: 80%;
            
-            margin-top: 150px;
+           
     }
     .hero-section {
         display: flex;
@@ -310,12 +310,20 @@
         align-items: center;
         gap: 1rem;
         width: 100%;
+        
     }
 
     .hero-content {
         max-width: 90%;
         text-align: center;
         margin: 0 auto;
+        text-align: start;
+    }
+    .hero-zone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .hobby-zone span{
         display: flex;

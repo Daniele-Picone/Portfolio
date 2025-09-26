@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 767px){
+    .footer{
+        width: 100%;
+    }
     .footer-links-section{
         display: flex;
         flex-direction: column;
@@ -61,7 +64,5 @@
     .footer-links{
         display: flex;
         flex-direction: column;
-   
-   
     }
 }

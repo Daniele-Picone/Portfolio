@@ -39,6 +39,7 @@ export default function Footer() {
           </li>
         </ul>
         </div>
+       
 
         <p className="footer-copy">
           © {new Date().getFullYear()} Portfolio. Tutti i diritti riservati.

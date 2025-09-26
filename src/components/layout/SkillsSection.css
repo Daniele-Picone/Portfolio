@@ -46,3 +46,22 @@
     box-shadow: 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan);
     transform: translateY(-5px) scale(1.05);
 }
+
+
+@media (max-width: 767px ){
+    
+    .skills-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        width: auto;
+    }
+    
+    .skill-card{
+        width: 20px;
+        padding: 5px;
+    }
+
+
+
+
+}
