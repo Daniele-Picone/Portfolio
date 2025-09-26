@@ -74,7 +74,7 @@
 
 
 /* mediaquery */
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 600px){
 
   .timeline{
     padding: 0;

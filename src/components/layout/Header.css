@@ -69,7 +69,7 @@
         }
 
 /* meida queries */
-@media (min-width: 374px)  {
+@media (min-width: 375px) and (max-width: 600px) {
    .header{
     display: flex;
     justify-content: center;
