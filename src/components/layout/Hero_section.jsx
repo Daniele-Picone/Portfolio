@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="hero-section">
         <div className="hero-content">
         <h2 className='hero-name' > Daniele Picone</h2>
-        <p className="hero-subtitle"> Junior full Stack Developer</p>
+        <div className="hero-subtitle"> <p> Junior full Stack Developer </p></div>
         <div className="hero-description">
         <p>
         Ci sono due mondi che mi appassionano profondamente, anche se a prima vista possono sembrare lontani: l’arte dell’ospitalità e la logica dell’informatica. Nel lavoro in sala ho scoperto quanto ogni dettaglio possa fare la differenza: un sorriso al momento giusto, l’abbinamento perfetto tra vino e piatto, la gestione armoniosa di uno spazio pieno di persone. 

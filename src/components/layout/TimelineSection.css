@@ -71,3 +71,22 @@
   color: var(--text-secondary);
   line-height: 1.5;
 }
+
+
+/* mediaquery */
+@media (min-width: 375px){
+
+  .timeline{
+    padding: 0;
+  }
+
+  .timeline-title{
+    font-size: 2rem;
+  }
+
+  .timeline-item{
+    padding: 0;
+  }
+
+
+}

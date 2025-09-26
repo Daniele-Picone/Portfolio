@@ -13,7 +13,8 @@ export default function RootLayout({ children }) {
         {/* ThemeProvider avvolge tutto */}
         <ThemeProvider>
           <Header />
-          <main>{children}</main>
+         {children}
+        
           <Footer />
         </ThemeProvider>
       </body>
