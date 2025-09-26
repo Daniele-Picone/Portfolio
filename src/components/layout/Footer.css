@@ -55,7 +55,7 @@
 
 
 
-@media (min-width: 375px) and (max-width: 760px) {
+@media  (max-width: 760px) {
     .footer{
         width: 100%;
         padding: 2px;
