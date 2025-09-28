@@ -11,9 +11,13 @@ export  const metadata = {
   description: "Portfolio di Daniele Picone : Junior developer fullstack",
   keywords: ["portfolio", "web developer", "Next.js", "React", "Fullstack"],
   authors: [{ name: "Daniele Picone" }],
+  
   openGraph: {
     title: "Portfolio di Daniele Picone",
     description: "Junior developer fullstack",
+    verification: {
+    google: "8EfOLGlCCjd0xIx6kmaWB18SF_rQjPqIrYaACGvzuRY",
+    },
     url: "https://portfolio-clg8i4qo0b.vercel.app/",
     siteName: "Portfolio Nome Cognome",
     images: [
