@@ -12,8 +12,8 @@ export default function Header() {
                 
             <ul className="nav-links">
                 <li><Link href="/" className="nav-link">Home</Link></li>
-                <li><Link href="#timeline" className="nav-link">Carrer</Link></li>
-                <li><Link href="#skills" className="nav-link">Skills</Link></li>
+                <li><Link href="/carrer" className="nav-link">Carrer</Link></li>
+                <li><Link href="/skills" className="nav-link">Skills</Link></li>
                 <li><Link href="/project" className="nav-link">Projects</Link></li>
             </ul>
                 <Switch/>

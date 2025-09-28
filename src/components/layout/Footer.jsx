@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="footer-logo">Portfolio</div>
         <div className="footer-links-section">
             <ul className="footer-links">
-                <li><Link href="#home" className="nav-link">Home</Link></li>
-                <li><Link href="#timeline" className="nav-link">Carrer</Link></li>
-                <li><Link href="#skills" className="nav-link">Skills</Link></li>
-                <li><Link href="#projects" className="nav-link">Projects</Link></li>
+                <li><Link href="/" className="nav-link">Home</Link></li>
+                <li><Link href="/carrer" className="nav-link">Carrer</Link></li>
+                <li><Link href="/skills" className="nav-link">Skills</Link></li>
+                <li><Link href="/project" className="nav-link">Projects</Link></li>
         </ul>
         <ul id="footIcone" className="footer-links  footer-icone">
           <li>

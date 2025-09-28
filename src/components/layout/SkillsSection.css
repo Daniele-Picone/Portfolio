@@ -1,9 +1,11 @@
 .skills-section {
-    height: 500px;
+    height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+   justify-content: center;
+   margin-top: 10rem;
 }
 
 .skills-section h2 {
@@ -15,7 +17,6 @@
     background-size: 200% 200%;
     color: transparent;
     text-shadow: 0 0 20px var(--neon-cyan);
-    margin-bottom: 3rem;
 }
 
 .skills-grid {

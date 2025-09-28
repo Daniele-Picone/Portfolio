@@ -4,6 +4,24 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 90px;
+    position: relative;
+    background: radial-gradient(circle at center, rgba(0, 245, 255, 0.05) 0%, transparent 70%);
+  
+}
+.back_btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    border-radius: 4px ;
+    background-color: var(--neon-cyan) ; 
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 69px;
+
 }
 .projectBgCard{
     height: auto;
@@ -29,6 +47,63 @@
 }
 .projectBgCard img{
     width: 50%;
+    max-height: 500px;
     border-radius:10px ;
 }
 
+.project-text{
+    font-size: 1.8rem ;
+    
+}
+.crd_links_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.crd_links_section h3{
+    font-size: 1.5rem;
+}
+.tech_links{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 50px; 
+    margin-bottom: 6rem;
+}
+
+.skill-card{
+    background: var(--glass-bg);
+    border: 2px solid var(--neon-cyan);
+    color: var(--text-primary);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    min-width: 100px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.crd_code_links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--neon-purple);
+}
+.crd_code_links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--neon-cyan);
+}
+
+
+@media (min-width: 360px) and (max-width: 800px){
+    .back_btn{
+        top: 60px;
+        left: 20px;
+    }
+}
