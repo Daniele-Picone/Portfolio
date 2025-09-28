@@ -1,6 +1,6 @@
 
 .ProjectPage{
-    margin-top: 130px;
+    margin-top: 160px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -80,10 +80,9 @@
     padding: 6px;
     font-weight: bold;
     border-radius: 12px;
-    min-width: 100px;
+    width: 80px;
     text-align: center;
     transition: all 0.3s ease;
-    cursor: default;
     list-style: none;
     font-size: 1.3rem;
 }
