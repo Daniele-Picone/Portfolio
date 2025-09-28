@@ -21,6 +21,7 @@
     align-items: center;
     position: absolute;
     left: 69px;
+  
 
 }
 .projectBgCard{
@@ -30,6 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 .projectBgCard h1{
   font-size: clamp(2rem, 5vw, 3.5rem);
@@ -103,7 +105,7 @@
 
 @media (min-width: 360px) and (max-width: 800px){
     .back_btn{
-        top: 60px;
+        top: 0px;
         left: 20px;
     }
 }
