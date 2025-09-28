@@ -1,4 +1,3 @@
-"use client"; // se usi hook dentro Header/Footer
 
 import { ThemeProvider } from "./context/ThemeContext";
 import "./globals.css";
@@ -7,7 +6,7 @@ import Footer from "../components/layout/Footer";
 import './context/ThemeContext.css'
 
 
-export const metadata = {
+export  const metadata = {
   title: "Il mio portfolio - Daniele Picone",
   description: "Portfolio di Daniele Picone : Junior developer fullstack",
   keywords: ["portfolio", "web developer", "Next.js", "React", "Fullstack"],
