@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import './Hero_section.css';
 import { FaGamepad } from "react-icons/fa";
 import {  FaFutbol } from 'react-icons/fa';
@@ -34,8 +35,8 @@ export default function HeroSection() {
         </div>
         
         <div className="cta-buttons">
-        <a href="#projects" className="btn btn-primary">Vedi Progetti</a>
-        <a href="#contact" className="btn btn-secondary">Contattami</a>
+        <Link href="/project" className="btn btn-primary">Vedi Progetti</Link>
+        {/* <a href="#contact" className="btn btn-secondary">Contattami</a> */}
         </div>
         
         </div>
