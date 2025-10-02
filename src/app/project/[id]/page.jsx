@@ -3,6 +3,7 @@ import './page.css'
 import Link from "next/link";
 
 export default function ProjectPage({ params }) {
+  
   const project = projects.find(p => String(p.id) === params.id);
 
   if (!project) return <p style={{ padding: "2rem" }}>Progetto non trovato</p>;

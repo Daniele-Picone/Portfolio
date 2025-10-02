@@ -17,7 +17,7 @@ export const projects = [
     link: "https://new-app-meteo.vercel.app/",
     github: "https://github.com/Daniele-Picone/New-app-meteo",
     slug: "App-meteo",
-    img: "/meteo.png"
+    img: "/Meteo.png"
   },
   {
     id: 3,
@@ -37,6 +37,6 @@ export const projects = [
     link: "https://react-to-do-list-s9qq.vercel.app/",
     github: "https://github.com/Daniele-Picone/React_toDo_List",
     slug: "blog-dev",
-    img :"/todolist.png"
+    img :"/Todolist.png"
   },
 ];
