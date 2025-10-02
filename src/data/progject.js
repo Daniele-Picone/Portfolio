@@ -12,12 +12,12 @@ export const projects = [
   {
     id: 2,
     title: "App-Meteo",
-    description: "App meteo creata in html, css, js",
-    tech: ["html", "css", "js"],
-    link: "https://app-meteo-eta.vercel.app/",
-    github: "https://github.com/Daniele-Picone/App-Meteo",
+    description: "App meteo creata in next.js e react , con aggiunta di Api di:  WeatherApi, NewsApi , HoroscopeApi",
+    tech: ["Next.js", "React", "Api"],
+    link: "https://new-app-meteo.vercel.app/",
+    github: "https://github.com/Daniele-Picone/New-app-meteo",
     slug: "App-meteo",
-    img: "/Meteo.png"
+    img: "/meteo.png"
   },
   {
     id: 3,
