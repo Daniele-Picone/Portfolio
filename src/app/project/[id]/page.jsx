@@ -19,7 +19,6 @@ export default function ProjectPage({ params }) {
         <h3>Tecnologie usate:</h3>
         <ul className="tech_links" >
           {project.tech.map((t, i) => (
-           
             <li  className="skill-card" key={i}>{t}</li>
           ))}
         </ul>

@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import './context/ThemeContext.css'
+import { Analytics } from "@vercel/analytics/next"
 
 
 export  const metadata = {
@@ -40,7 +41,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Header />
          {children}
-        
+        <Analytics />
           <Footer />
         </ThemeProvider>
       </body>
