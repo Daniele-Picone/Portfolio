@@ -42,9 +42,9 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Header />
          {children}
-        <Analytics />
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
