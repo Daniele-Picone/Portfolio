@@ -79,14 +79,15 @@
     background: var(--glass-bg);
     border: 2px solid var(--neon-cyan);
     color: var(--text-primary);
-    padding: 6px;
+    padding: 10px;
     font-weight: bold;
     border-radius: 12px;
-    width: 80px;
+    width: 100px;
     text-align: center;
     transition: all 0.3s ease;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    text-wrap: wrap;
 }
 .crd_code_links{
     display: flex;
