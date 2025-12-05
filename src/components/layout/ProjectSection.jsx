@@ -12,7 +12,7 @@ export default function ProjectsSection() {
         {projects.map((project) => (
           <Link key={project.id}  href={`/project/${project.id}`} className="project-card">
             <h3>{project.title}</h3>
-            <p>{project.description}</p>
+            <p>{project.description.slice(0, 60)}{project.description.length > 100 ? "..." : ""}</p>
             <div className="tech-stack">
               {project.tech.map((t, index) => (
                 <span key={index} className="tech">{t}</span>
